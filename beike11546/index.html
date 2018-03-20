@@ -1,0 +1,1307 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<html class="no-js">
+<head>
+  <title>Home</title>
+  <meta charset="utf-8">
+  <!--[if IE]>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <![endif]-->
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css" id="color-switcher-link">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+  
+  <!--[if lt IE 9]>
+    <script src="js/vendor/html5shiv.min.js"></script>
+    <script src="js/vendor/respond.min.js"></script>
+  <![endif]-->
+
+</head>
+<body>
+  <!--[if lt IE 9]>
+      <div class="bg-danger text-center">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" class="highlight">upgrade your browser</a> to improve your experience.</div>
+  <![endif]-->
+  
+  <div class="preloader">
+    <div class="preloader_content loading">
+      <span class="slice"></span>
+      <span class="slice"></span>
+      <span class="slice"></span>
+      <span class="slice"></span>
+      <span class="slice"></span>
+      <span class="slice"></span>
+    </div>
+  </div>
+
+<!-- search modal -->
+<div class="modal" tabindex="-1" aria-labelledby="search_modal" id="search_modal">
+  <div class="widget widget_search">
+    <form method="get" class="searchform form-inline" action="">
+      <div class="form-group">
+        <input type="text" value="" name="search" class="form-control" placeholder="Search keyword" id="modal-search-input">
+      </div>
+      <button type="submit" class="theme_button">Search</button>
+    </form>
+  </div>
+</div>
+
+<!-- wrappers for visual page editor and boxed version of template -->
+<div id="canvas">
+<div id="box_wrapper">
+
+<!-- template sections -->
+<div class="page_topline2 ls">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-6">
+        <p class="social-networks__title">Social Networks:</p>
+        <ul class="social-networks__list">
+          <li><a href="#"><i class="rt-icon2-facebook"></i></a></li>
+          <li><a href="#"><i class="rt-icon2-twitter"></i></a></li>
+          <li><a href="#"><i class="rt-icon2-google-plus"></i></a></li>
+        </ul>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-6">
+        <ul class="inline-dropdown drop-list inline-block">
+          <li class="dropdown login-dropdown my-account">
+            <a class="header-button" id="login" data-target="#" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <i class="flaticon-user"></i>
+              <span>My Account</span>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="login">
+              <p>
+                <strong class="grey">If you have an account, please log in:</strong>
+              </p>
+              <form action="">
+                <div class="form-group">
+                  <label for="login_email">Email address</label>
+                  <input type="email" class="form-control" id="login_email" placeholder="Email Address">
+                </div>
+                <div class="form-group">
+                  <label for="login_password">Password</label>
+                  <input type="password" class="form-control" id="login_password" placeholder="Password">
+                </div>
+                <button type="button" class="theme_button color1">
+                  Log in
+                </button>
+                <a href="register.html" class="theme_button color2">Register</a>
+              </form>
+                <div class="greylinks topmargin_20">
+                  <a href="register.html">Forgot Your Password?</a>
+                </div>
+            </div>
+          </li>
+          <li class="dropdown search-modal">
+            <a href="#" class="search_modal_button header-button">
+              <i class="flaticon-search"></i>
+            </a>
+          </li>
+          <li class="dropdown cart-dropdown">
+            <a class="header-button" id="cart" data-target="#" href="" data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="false">
+              <i class="flaticon-basket"></i>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="cart">
+              <span class="grey">Recently added item(s)</span>
+              <div class="widget widget_shopping_cart">
+  
+  <div class="widget_shopping_cart_content">
+    <ul class="cart_list product_list_widget media-list darklinks">
+      <li class="media">
+        <div class="media-left media-middle">
+          <a href="product-right.html">
+            <img src="images/shop/01.jpg" alt="">
+          </a>
+        </div>
+        <div class="media-body media-middle">
+          <h4>
+            <a href="product-right.html">Stet clitad gubergren</a>
+          </h4>
+          <span class="quantity">1 × <span class="amount">$90</span></span>
+        </div>
+        <div class="media-body media-middle">
+          <a href="#" class="remove" title="Remove this item">
+              <i class="rt-icon2-trash highlight"></i>
+          </a>
+        </div>
+      </li>
+      <li class="media">
+        <div class="media-left media-middle">
+          <a href="product-right.html">
+            <img src="images/shop/02.jpg" alt="">
+          </a>
+        </div>
+        <div class="media-body media-middle">
+          <h4>
+            <a href="product-right.html">Takimata san bctus</a>
+          </h4>
+          <span class="quantity">1 × <span class="amount">$90</span></span>
+        </div>
+        <div class="media-body media-middle">
+          <a href="#" class="remove" title="Remove this item">
+            <i class="rt-icon2-trash highlight"></i>
+          </a>
+        </div>
+      </li>
+    </ul><!-- end product list -->
+    <p class="total"><span class="grey">Cart Subtotal: <span class="amount">$180</span></span></p>
+    <p class="buttons">
+      <a href="cart-right.html" class="theme_button color1">View All</a>
+      <a href="checkout-right.html" class="theme_button">Checkout</a>
+    </p>
+  </div>
+</div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<header class="home_header header_white floating_logo columns_padding_0">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="home-logo__wrapper">
+          <a href="./" class="logo logo_image">
+            <img src="images/home_logo.png" alt="">
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-12 toggle_menu--position">
+        <div class="main-nav__wrapper page_header">
+          <!-- main nav start -->
+<nav class="mainmenu_wrapper">
+  <ul class="mainmenu nav sf-menu">
+    <li><a href="index.html">Home</a></li>
+	<li><a href="shop-right.html">Shop</a></li>
+	<li><a href="product-right.html">Single Product</a></li>
+	<li><a href="cart-right.html">Shopping Cart</a></li>
+	<li><a href="checkout-right.html">Checkout</a></li>
+	<li><a href="register.html">Registration</a></li>
+  </ul>
+</nav>
+<!-- eof main nav -->
+          <span class="toggle_menu"><span></span></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<div class="intro_section page_mainslider ds">
+  <div class="flexslider">
+    <ul class="slides">
+      <li>
+        <img src="images/slider/slider_01.jpg" alt="">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="slide-block__table-wrapper">
+                <div class="slide-block__table">
+                  <div class="slide-block__table-row">
+                    <div class="slide-block__table-row-cell">
+                      <div class="slide-block__wrapper">
+                        <h3 class="slide-block__title">
+                          Bijouter 
+                          <span class="slide-block__title-nl">for</span> 
+                          <span class="slide-block__title-bl">Everyone</span>
+                        </h3>
+                        <p class="slide-block__content">Donec nec nunc ipsum. Duis fringilla est nec mauris posuere, nec consectetur turpis posuere. Suspendisse commodo nibh eu turpis commodo.</p>
+                        <a href="#" class="slide-block__button">Shop Now</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div> 
+            </div>
+          </div>
+        </div>
+      </li>
+      <li>
+        <img src="images/slider/slider_02.jpg" alt="">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="slide-block__table-wrapper">
+                <div class="slide-block__table">
+                  <div class="slide-block__table-row">
+                    <div class="slide-block__table-row-cell">
+                      <div class="slide-block__wrapper">
+                        <h3 class="slide-block__title">
+                          Sale off
+                          <span class="slide-block__title-bl slide-block__title-bl--size">30</span>
+                          <span class="slide-block__title-nl">% for</span> 
+                          <span class="slide-block__title-bl">all</span>
+                        </h3>
+                        <p class="slide-block__content">Sed fringilla et leo sodales auctor. Cras rhoncus, odio eu euismod hendrerit, nibh leo vestibulum nulla, et convallis eros lacus eu mi.</p>
+                        <a href="#" class="slide-block__button">Shop Now</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div> 
+            </div>
+          </div>
+        </div>
+      </li>
+      <li>
+        <img src="images/slider/slider_03.jpg" alt="">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="slide-block__table-wrapper">
+                <div class="slide-block__table">
+                  <div class="slide-block__table-row">
+                    <div class="slide-block__table-row-cell">
+                      <div class="slide-block__wrapper">
+                        <h3 class="slide-block__title">
+                          <span class="slide-block__title-nl">Elegance </span> 
+                          <span class="slide-block__title-bl">Collection</span>
+                        </h3>
+                        <p class="slide-block__content">Sed fringilla et leo sodales auctor. Cras rhoncus, odio eu euismod hendrerit, nibh leo vestibulum nulla, et convallis eros lacus eu mi.</p>
+                        <a href="#" class="slide-block__button">Shop Now</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div> 
+            </div>
+          </div><!-- eof .row -->
+        </div><!-- eof .container -->
+      </li>
+    </ul>
+  </div> <!-- eof flexslider -->
+</div>
+
+<div class="ls section_padding_top_100 section_padding_bottom_100">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="page-about__title-wrapper">
+          <h3 class="content-block__title"><span class="content-block__title-block">New <span>Arrival</span></span></h3>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="row new_arrival isotope_container masonry-layout gallery-grid">
+          
+          <!-- <div class="row masonry-layout gallery-banners-grid"> -->
+          <div class="isotope-item layout-small_square col-lg-20 col-md-4 col-sm-6">
+            <div class="vertical-item content-absolute vertical-center ds"> <!-- vertical item -->
+              <div class="item-media">
+                <img src="images/new_arrival/new_arrival-img-01.jpg" alt="">
+                <div class="media-links">
+                  <div class="links-wrap">
+                    <a class="p-like" title=""></a>
+                    <a class="p-view prettyPhoto" title="" data-gal="prettyPhoto[gal]" href="images/gallery/gallery_05.jpg"></a>
+                    <a class="p-link" title="" href="#">
+                      <span class="p-link__tooltip">look info</span>
+                      <span class="p-link__button"></span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div> 
+          </div>
+          <div class="isotope-item layout-horizontal_rectangle col-lg-40 col-md-4 col-sm-6">
+            <div class="table_section side-item content-padding">
+              <div class="row">
+                <div class="col-lg-6 white_bg">
+                  <div class="item-media">
+                    <img src="images/new_arrival/new_arrival-img-02.jpg" alt="">
+                    <div class="media-links">
+                      <div class="links-wrap">
+                        <a class="p-like" title=""></a>
+                        <a class="p-view prettyPhoto" title="" data-gal="prettyPhoto[gal]" href="images/gallery/gallery_14.jpg"></a>
+                        <a class="p-link" title="" href="#">
+                          <span class="p-link__tooltip">look info</span>
+                          <span class="p-link__button"></span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="item-content">
+                    <div class="post__meta">
+                      <ul class="post__meta-list">
+                        <li>
+                          <a href="#" class="post__tags">Bracelets</a>
+                        </li>
+                        <li>
+                          <div class="star-rating" title="Rated 4.00 out of 5">
+                            <span style="width:80%">
+                              <strong class="rating">4.00</strong> out of 5
+                            </span>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                    <h3 class="post__title">
+                      <a href="#" rel="bookmark">Pellentesque pretium</a>
+                    </h3>
+                    <div class="post__text-content">
+                      <p>Ut vel augue dolor. Suspendisse viverra dolor vitae lacinia molestie. Aenean eu accumsan arcu, sit amet...</p>
+                    </div>
+                    <div class="shop-item__block">
+                      <a href="#" class="shop-item__button">Shop Now</a>
+                      <span class="price">
+                        <span>
+                          <span class="amount">$187.00</span>
+                        </span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div> 
+          </div>
+          <div class="isotope-item layout-small_square col-lg-20 col-md-4 col-sm-6">
+            <div class="vertical-item content-absolute vertical-center ds"> <!-- vertical item -->
+              <div class="item-media">
+                <img src="images/new_arrival/new_arrival-img-03.jpg" alt="">
+                <div class="media-links">
+                  <div class="links-wrap">
+                    <a class="p-like" title=""></a>
+                    <a class="p-view prettyPhoto" title="" data-gal="prettyPhoto[gal]" href="images/gallery/gallery_09.jpg"></a>
+                    <a class="p-link" title="" href="#">
+                      <span class="p-link__tooltip">look info</span>
+                      <span class="p-link__button"></span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div> 
+          </div>
+          <div class="isotope-item layout-small_square col-lg-20 col-md-4 col-sm-6">
+            <div class="vertical-item content-absolute vertical-center ds"> <!-- vertical item -->
+              <div class="item-media">
+                <img src="images/new_arrival/new_arrival-img-04.jpg" alt="">
+                <div class="media-links">
+                  <div class="links-wrap">
+                    <a class="p-like" title=""></a>
+                    <a class="p-view prettyPhoto" title="" data-gal="prettyPhoto[gal]" href="images/gallery/gallery_13.jpg"></a>
+                    <a class="p-link" title="" href="#">
+                      <span class="p-link__tooltip">look info</span>
+                      <span class="p-link__button"></span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div> 
+          </div>
+          <div class="isotope-item layout-vertical_rectangle col-lg-20 col-md-4 col-sm-6">
+            <div class="vertical-item content-padding with_background">
+              <div class="item-media">
+                <img src="images/new_arrival/new_arrival-img-05.jpg" alt="">
+                <div class="media-links">
+                  <div class="links-wrap">
+                    <a class="p-like" title=""></a>
+                    <a class="p-view prettyPhoto" title="" data-gal="prettyPhoto[gal]" href="images/gallery/gallery_21.jpg"></a>
+                    <a class="p-link" title="" href="#">
+                      <span class="p-link__tooltip">look info</span>
+                      <span class="p-link__button"></span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="item-content">
+                <div class="item-content-row">
+                  <div class="item-content-cell">
+                    <div class="post__meta">
+                      <ul class="post__meta-list">
+                        <li>
+                          <a href="#" class="post__tags">Necklace</a>
+                        </li>
+                        <li>
+                          <div class="star-rating" title="Rated 4.00 out of 5">
+                            <span style="width:80%">
+                              <strong class="rating">4.00</strong> out of 5
+                            </span>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                    <h3 class="post__title">
+                    <a href="#" rel="bookmark">Mauris erat nunc mattis</a>
+                  </h3>
+                    <div class="post__text-content">
+                    <p>Nulla condimentum ac tellus dignissim sagittis. Fusce vestibulum fermentum lacus quis volutpat ex a dolor...</p>
+                  </div>
+                    <div class="shop-item__block">
+                    <a href="#" class="shop-item__button">Shop Now</a>
+                    <span class="price">
+                      <span>
+                        <span class="amount">$345.00</span>
+                      </span>
+                    </span>
+                  </div>
+                  </div>
+                </div>
+              </div>
+            </div> 
+          </div>
+          <div class="isotope-item layout-small_square col-lg-20 col-md-4 col-sm-6">
+            <div class="vertical-item content-absolute vertical-center ds"> <!-- vertical item -->
+              <div class="item-media">
+                <img src="images/new_arrival/new_arrival-img-06.jpg" alt="">
+                <div class="media-links">
+                  <div class="links-wrap">
+                    <a class="p-like" title=""></a>
+                    <a class="p-view prettyPhoto" title="" data-gal="prettyPhoto[gal]" href="images/gallery/gallery_01.jpg"></a>
+                    <a class="p-link" title="" href="#">
+                      <span class="p-link__tooltip">look info</span>
+                      <span class="p-link__button"></span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div> 
+          </div>
+          <div class="isotope-item layout-big_square col-lg-40 col-md-4 col-sm-6">
+            <div class="vertical-item content-absolute vertical-center ds">
+              <div class="item-media">
+                <img src="images/new_arrival/new_arrival-img-08.jpg" alt="">
+                <div class="media-links">
+                  <div class="links-wrap">
+                    <a class="p-like" title=""></a>
+                    <a class="p-view prettyPhoto" title="" data-gal="prettyPhoto[gal]" href="images/gallery/gallery_06.jpg"></a>
+                    <a class="p-link" title="" href="#">
+                      <span class="p-link__tooltip">look info</span>
+                      <span class="p-link__button"></span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div> 
+          </div>
+          <div class="isotope-item layout-vertical_rectangle col-lg-20 col-md-4 col-sm-6">
+            <div class="vertical-item content-padding with_background">
+              <div class="item-media">
+                <img src="images/new_arrival/new_arrival-img-15.jpg" alt="">
+                <div class="media-links">
+                  <div class="links-wrap">
+                    <a class="p-like" title=""></a>
+                    <a class="p-view prettyPhoto" title="" data-gal="prettyPhoto[gal]" href="images/gallery/gallery_16.jpg"></a>
+                    <a class="p-link" title="" href="#">
+                      <span class="p-link__tooltip">look info</span>
+                      <span class="p-link__button"></span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="item-content">
+                <div class="item-content-row">
+                  <div class="item-content-cell">
+                    <div class="post__meta">
+                      <ul class="post__meta-list">
+                        <li>
+                          <a href="#" class="post__tags">bead jewelery</a>
+                        </li>
+                        <li>
+                          <div class="star-rating" title="Rated 4.00 out of 5">
+                            <span style="width:80%">
+                              <strong class="rating">4.00</strong> out of 5
+                            </span>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                    <h3 class="post__title">
+                    <a href="#" rel="bookmark">Cras euismod nibh ut</a>
+                  </h3>
+                    <div class="post__text-content">
+                    <p>Nulla condimentum ac tellus dignissim sagittis. Fusce vestibulum fermentum lacus quis volutpat ex a dolor...</p>
+                  </div>
+                    <div class="shop-item__block">
+                    <a href="#" class="shop-item__button">Shop Now</a>
+                    <span class="price">
+                      <span>
+                        <span class="amount">$221.00</span>
+                      </span>
+                    </span>
+                  </div>
+                  </div>
+                </div>
+              </div>
+            </div> 
+          </div>
+          <div class="isotope-item layout-small_square col-lg-20 col-md-4 col-sm-6">
+            <div class="vertical-item content-absolute vertical-center ds"> <!-- vertical item -->
+              <div class="item-media">
+                <img src="images/new_arrival/new_arrival-img-07.jpg" alt="">
+                <div class="media-links">
+                  <div class="links-wrap">
+                    <a class="p-like" title=""></a>
+                    <a class="p-view prettyPhoto" title="" data-gal="prettyPhoto[gal]" href="images/gallery/gallery_02.jpg"></a>
+                    <a class="p-link" title="" href="#">
+                      <span class="p-link__tooltip">look info</span>
+                      <span class="p-link__button"></span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div> 
+          </div>
+          <div class="isotope-item layout-vertical_rectangle col-lg-20 col-md-4 col-sm-6">
+            <div class="vertical-item content-padding with_background">
+              <div class="item-media">
+                <img src="images/new_arrival/new_arrival-img-16.jpg" alt="">
+                 <div class="media-links">
+                  <div class="links-wrap">
+                    <a class="p-like" title=""></a>
+                    <a class="p-view prettyPhoto" title="" data-gal="prettyPhoto[gal]" href="images/gallery/gallery_18.jpg"></a>
+                    <a class="p-link" title="" href="#">
+                      <span class="p-link__tooltip">look info</span>
+                      <span class="p-link__button"></span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="item-content">
+                <div class="item-content-row">
+                  <div class="item-content-cell">
+                    <div class="post__meta">
+                      <ul class="post__meta-list">
+                        <li>
+                          <a href="#" class="post__tags">Necklace</a>
+                        </li>
+                        <li>
+                          <div class="star-rating" title="Rated 4.00 out of 5">
+                            <span style="width:80%">
+                              <strong class="rating">4.00</strong> out of 5
+                            </span>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                    <h3 class="post__title">
+                    <a href="#" rel="bookmark">Integer quis consequat</a>
+                  </h3>
+                    <div class="post__text-content">
+                    <p>Nulla condimentum ac tellus dignissim sagittis. Fusce vestibulum fermentum lacus quis volutpat ex a dolor...</p>
+                  </div>
+                    <div class="shop-item__block">
+                    <a href="#" class="shop-item__button">Shop Now</a>
+                    <span class="price">
+                      <span>
+                        <span class="amount">$253.00</span>
+                      </span>
+                    </span>
+                  </div>
+                  </div>
+                </div>
+              </div>
+            </div> 
+          </div>
+          <div class="isotope-item layout-horizontal_rectangle col-lg-40 col-md-4 col-sm-6">
+            <div class="side-item table_section content-padding with_background">
+              <div class="row">
+                <div class="col-lg-6 white_bg">
+                  <div class="item-media">
+                    <img src="images/new_arrival/new_arrival-img-17.jpg" alt="">
+                    <div class="media-links">
+                      <div class="links-wrap">
+                        <a class="p-like" title=""></a>
+                        <a class="p-view prettyPhoto" title="" data-gal="prettyPhoto[gal]" href="images/gallery/gallery_08.jpg"></a>
+                        <a class="p-link" title="" href="#">
+                          <span class="p-link__tooltip">look info</span>
+                          <span class="p-link__button"></span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="item-content">
+                    <div class="post__meta">
+                      <ul class="post__meta-list">
+                        <li>
+                          <a href="#" class="post__tags">bead jewelery</a>
+                        </li>
+                        <li>
+                          <div class="star-rating" title="Rated 4.00 out of 5">
+                            <span style="width:80%">
+                              <strong class="rating">4.00</strong> out of 5
+                            </span>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                    <h3 class="post__title">
+                      <a href="#" rel="bookmark">Etiam pretium ferment</a>
+                    </h3>
+                    <div class="post__text-content">
+                      <p>Aliquam sollicitudin neque in ante pretium tincidunt. Etiam volutpat ex a dolor gravida convallis...</p>
+                    </div>
+                    <div class="shop-item__block">
+                      <a href="#" class="shop-item__button">Shop Now</a>
+                      <span class="price">
+                        <span>
+                          <span class="amount">$126.00</span>
+                        </span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div> 
+          </div>
+          <div class="isotope-item layout-small_square col-lg-20 col-md-4 col-sm-6">
+            <div class="vertical-item content-absolute vertical-center ds"> <!-- vertical item -->
+              <div class="item-media">
+                <img src="images/new_arrival/new_arrival-img-09.jpg" alt="">
+                <div class="media-links">
+                  <div class="links-wrap">
+                    <a class="p-like" title=""></a>
+                    <a class="p-view prettyPhoto" title="" data-gal="prettyPhoto[gal]" href="images/gallery/gallery_07.jpg"></a>
+                    <a class="p-link" title="" href="#">
+                      <span class="p-link__tooltip">look info</span>
+                      <span class="p-link__button"></span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div> 
+          </div>
+          <div class="isotope-item layout-small_square col-lg-20 col-md-4 col-sm-6">
+            <div class="vertical-item content-absolute vertical-center ds"> <!-- vertical item -->
+              <div class="item-media">
+                <img src="images/new_arrival/new_arrival-img-10.jpg" alt="">
+                <div class="media-links">
+                  <div class="links-wrap">
+                    <a class="p-like" title=""></a>
+                    <a class="p-view prettyPhoto" title="" data-gal="prettyPhoto[gal]" href="images/gallery/gallery_10.jpg"></a>
+                    <a class="p-link" title="" href="#">
+                      <span class="p-link__tooltip">look info</span>
+                      <span class="p-link__button"></span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div> 
+          </div>
+          <div class="isotope-item layout-small_square col-lg-20 col-md-4 col-sm-6">
+            <div class="vertical-item content-absolute vertical-center ds"> <!-- vertical item -->
+              <div class="item-media">
+                <img src="images/new_arrival/new_arrival-img-11.jpg" alt="">
+                <div class="media-links">
+                  <div class="links-wrap">
+                    <a class="p-like" title=""></a>
+                    <a class="p-view prettyPhoto" title="" data-gal="prettyPhoto[gal]" href="images/gallery/gallery_12.jpg"></a>
+                    <a class="p-link" title="" href="#">
+                      <span class="p-link__tooltip">look info</span>
+                      <span class="p-link__button"></span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div> 
+          </div>
+          <div class="isotope-item layout-small_square col-lg-20 col-md-4 col-sm-6">
+            <div class="vertical-item content-absolute vertical-center ds"> <!-- vertical item -->
+              <div class="item-media">
+                <img src="images/new_arrival/new_arrival-img-12.jpg" alt="">
+                <div class="media-links">
+                  <div class="links-wrap">
+                    <a class="p-like" title=""></a>
+                    <a class="p-view prettyPhoto" title="" data-gal="prettyPhoto[gal]" href="images/gallery/gallery_22.jpg"></a>
+                    <a class="p-link" title="" href="#">
+                      <span class="p-link__tooltip">look info</span>
+                      <span class="p-link__button"></span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div> 
+          </div>
+          <div class="isotope-item layout-big_square col-lg-40 col-md-4 col-sm-6">
+            <div class="vertical-item content-absolute vertical-center ds">
+              <div class="item-media">
+                <img src="images/new_arrival/new_arrival-img-13.jpg" alt="">
+                <div class="media-links">
+                  <div class="links-wrap">
+                    <a class="p-like" title=""></a>
+                    <a class="p-view prettyPhoto" title="" data-gal="prettyPhoto[gal]" href="images/gallery/gallery_23.jpg"></a>
+                    <a class="p-link" title="" href="#">
+                      <span class="p-link__tooltip">look info</span>
+                      <span class="p-link__button"></span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div> 
+          </div>
+          <div class="isotope-item layout-small_square col-lg-20 col-md-4 col-sm-6">
+            <div class="vertical-item content-absolute vertical-center ds"> <!-- vertical item -->
+              <div class="item-media">
+                <img src="images/new_arrival/new_arrival-img-14.jpg" alt="">
+                <div class="media-links">
+                  <div class="links-wrap">
+                    <a class="p-like" title=""></a>
+                    <a class="p-view prettyPhoto" title="" data-gal="prettyPhoto[gal]" href="images/gallery/gallery_11.jpg"></a>
+                    <a class="p-link" title="" href="#">
+                      <span class="p-link__tooltip">look info</span>
+                      <span class="p-link__button"></span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div> 
+          </div>
+          <div class="isotope-item layout-horizontal_rectangle col-lg-40 col-md-4 col-sm-6">
+            <div class="side-item table_section content-padding with_background">
+              <div class="row">
+                <div class="col-lg-6 white_bg">
+                  <div class="item-media">
+                    <img src="images/new_arrival/new_arrival-img-18.jpg" alt="">
+                    <div class="media-links">
+                      <div class="links-wrap">
+                        <a class="p-like" title=""></a>
+                        <a class="p-view prettyPhoto" title="" data-gal="prettyPhoto[gal]" href="images/gallery/gallery_04.jpg"></a>
+                        <a class="p-link" title="" href="#">
+                          <span class="p-link__tooltip">look info</span>
+                          <span class="p-link__button"></span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="item-content">
+                    <div class="post__meta">
+                      <ul class="post__meta-list">
+                        <li>
+                          <a href="#" class="post__tags">Necklace</a>
+                        </li>
+                        <li>
+                          <div class="star-rating" title="Rated 4.00 out of 5">
+                            <span style="width:80%">
+                              <strong class="rating">4.00</strong> out of 5
+                            </span>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                    <h3 class="post__title">
+                      <a href="#" rel="bookmark">Suspendisse ultricies</a>
+                    </h3>
+                    <div class="post__text-content">
+                      <p>Nulla condimentum ac tellus dignissim sagittis. Fusce vestibulum fermentum lacus quis volutpat ex a dolor...</p>
+                    </div>
+                    <div class="shop-item__block">
+                      <a href="#" class="shop-item__button">Shop Now</a>
+                      <span class="price">
+                        <span>
+                          <span class="amount">$192.00</span>
+                        </span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div> 
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="ls">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="page-about__title-wrapper">
+          <h3 class="content-block__title"><span class="content-block__title-block">Special <span>Products</span></span></h3>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="filters isotope_filters text-center">
+          <a href="#" data-filter="*" class="selected">All</a>
+          <a href="#" data-filter=".sales">Sales</a>
+          <a href="#" data-filter=".beaded_items">Beaded items</a>
+          <a href="#" data-filter=".necklaces">Necklaces</a>
+          <a href="#" data-filter=".earings">Earings</a>
+          <a href="#" data-filter=".beads">Beads</a>
+          <a href="#" data-filter=".bracelets">Bracelets</a>
+        </div>
+        <div class="gallery-products isotope_container isotope row masonry-layout" data-filters=".isotope_filters">
+          <div class="isotope-item col-lg-6 col-md-6 col-sm-12 gallery-products__offset photography">
+            <div class="gallery-products__item">
+              <figure class="gallery-products__img">
+                <a href="#">
+                  <img src="images/gallery/home/home_gallery-01_bg.jpg" alt="">
+                </a>
+              </figure>
+              <div class="gallery-products__content-05">
+                <div class="gallery-products__table">
+                  <div class="gallery-products__table-row">
+                    <div class="gallery-products__table-cell">
+                      <div class="gallery-products__content-wrapp">
+                        <h3 class="gallery-products__title">Exclude Sale</h3>
+                        <p class="gallery-products__sub-title"><span>15</span>% discount</p>
+                        <p class="gallery-products__content-text">Duis ac egestas dui. Suspendisse euismod lacus nec felis molestie bibendum. Fusce et tortor lobortis, dictum sem a, ultricies nisl. </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <a href="#" class="gallery-products__button">Shop Now</a>
+              </div>
+              <img src="images/gallery/home/home_gallery-01_el.png" alt="" class="gallery-products__content-img">
+            </div>
+          </div>
+          <div class="isotope-item col-lg-6 col-md-6 col-sm-12 gallery-products__offset sales necklaces">
+            <div class="gallery-products__item">
+              <figure class="gallery-products__img">
+                <a href="#">
+                  <img src="images/gallery/home/home_gallery-02.jpg" alt="">
+                </a>
+              </figure>
+              <div class="gallery-products__content">
+                <div class="gallery-products__table">
+                  <div class="gallery-products__table-row">
+                    <div class="gallery-products__table-cell">
+                      <div class="gallery-products__content-wrapp">
+                        <h3 class="gallery-products__title">Fancy</h3>
+                        <p class="gallery-products__sub-title">Decorations</p>
+                        <p class="gallery-products__content-text">Fusce consequat eros nibh, et tempus eros facilisis vel. Etiam pretium fermentum ipsum at consequat. Aliquam sollicitudin neque in ante pretium...</p>
+                        <a href="#" class="gallery-products__button">Shop Now</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="isotope-item col-lg-6 col-md-6 col-sm-12 gallery-products__offset beaded_items earings sales">
+            <div class="gallery-products__item">
+              <figure class="gallery-products__img">
+                <a href="#">
+                  <img src="images/gallery/home/home_gallery-03.jpg" alt="">
+                </a>
+              </figure>
+              <div class="gallery-products__content-02">
+                <p class="gallery-products__content-02-sub-title">Bead</p>
+                <h3 class="gallery-products__content-02-title">Jewelery</h3>
+              </div>
+            </div>
+          </div>
+          <div class="isotope-item col-lg-6 col-md-6 col-sm-12 gallery-products__offset necklaces earings architecture">
+            <div class="gallery-products__item">
+              <figure class="gallery-products__img">
+                <a href="#">
+                  <img src="images/gallery/home/home_gallery-04.jpg" alt="">
+                </a>
+              </figure>
+              <div class="gallery-products__content-03">
+                <h3 class="gallery-products__content-03-title"><span>J</span>ewellery</h3>
+                <p class="gallery-products__content-03-sub-title">from natural materials</p>
+              </div>
+            </div>
+          </div>
+          <div class="isotope-item col-lg-6 col-md-6 col-sm-12 gallery-products__offset beads bracelets">
+            <div class="gallery-products__item">
+              <figure class="gallery-products__img">
+                <a href="#">
+                  <img src="images/gallery/home/home_gallery-05.jpg" alt="">
+                </a>
+              </figure>
+              <div class="gallery-products__content-04">
+                <div class="gallery-products__table">
+                  <div class="gallery-products__table-row">
+                    <div class="gallery-products__table-cell">
+                      <div class="gallery-products__content-wrapp">
+                        <p class="gallery-products__sub-title">Jewelry</p>
+                        <h3 class="gallery-products__title">Sets</h3>
+                        <p class="gallery-products__content-text">Ut lobortis nisi neque, eget commodo quam molestie eget. Nunc nisl felis, semper et lobortis id, consequat eget velit, ligula viverra pellentesque.</p>
+                        <a href="#" class="gallery-products__button">Shop Now</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="isotope-item  col-lg-6 col-md-6 col-sm-12 gallery-products__offset bracelets earings sales">
+            <div class="gallery-products__item">
+              <figure class="gallery-products__img">
+                <a href="#">
+                  <img src="images/gallery/home/home_gallery-06_bg.jpg" alt="">
+                </a>
+              </figure>
+              <div class="gallery-products__content-06">
+                <div class="gallery-products__table">
+                  <div class="gallery-products__table-row">
+                    <div class="gallery-products__table-cell">
+                      <div class="gallery-products__content-wrapp">
+                        <h3 class="gallery-products__title">Old Collection</h3>
+                        <p class="gallery-products__sub-title"><span>40</span>% discount</p>
+                        <p class="gallery-products__content-text">
+                          Etiam volutpat ex a dolor gravida convallis. Pellentesque pretium elit ut sapien facilisis bibendum. Cras euismod pretium...
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <a href="#" class="gallery-products__button">Shop Now</a>
+              </div>
+              <img src="images/gallery/home/home_gallery-06_el.png" alt="" class="gallery-products__content-img-02">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="ls">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="gallery-products__pagination">
+          <ul class="pagination">
+  <li class="active"><a href="#">1</a></li>
+  <li><a href="#">2</a></li>
+  <li><a href="#">3</a></li>
+  <li><a href="#">4</a></li>
+  <li><a href="#">5</a></li>
+  <li><a href="#">...</a></li>
+  <li><a href="#">54</a></li>
+</ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="ls section_padding_top_80">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="page-about__title-wrapper">
+          <h3 class="content-block__title"><span class="content-block__title-block">From <span>The Blog</span></span></h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="ls section_padding_bottom_25">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <ul id="gallery_blog-carousel" class="gallery_item-carousel home-blog__carousel">
+          <li>
+            <div class="home-blog__carousel-wrapper">
+              <figure class="home-blog__carousel-img">
+                <a href="#">
+                  <img src="images/carousel/home/carousel_home-blog-01.jpg" alt="">
+                </a>
+              </figure>
+              <div class="post__content">
+                <div class="post__meta">
+                  <ul class="post__meta-list">
+                    <li>
+                      <a href="#" class="post__tags">Necklace</a>
+                    </li>
+                    <li>
+                      <p class="post__date-publication">07/01/2016</p>
+                    </li>
+                    <li>
+                      <p class="post__comments">16</p>
+                    </li>
+                  </ul>
+                </div>
+                <h3 class="post__title">
+                  <a href="#" rel="bookmark">Suspendisse nisi turpis, pulvinar et dictum vel. </a>
+                </h3>
+                <div class="post__text-content">
+                  <p>Nam ultricies risus sed egestas blandit. Nunc in euismod diam. Curabitur in rhoncus purus. Suspendisse potenti...</p>
+                </div>
+                <a href="#" class="post__button">Read more</a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="home-blog__carousel-wrapper">
+              <figure class="home-blog__carousel-img">
+                <a href="#">
+                  <img src="images/carousel/home/carousel_home-blog-02.jpg" alt="">
+                </a>
+              </figure>
+              <div class="post__content">
+                <div class="post__meta">
+                  <ul class="post__meta-list">
+                    <li>
+                      <a href="#" class="post__tags">Necklace</a>
+                    </li>
+                    <li>
+                      <p class="post__date-publication">07/01/2016</p>
+                    </li>
+                    <li>
+                      <p class="post__comments">12</p>
+                    </li>
+                  </ul>
+                </div>
+                <h3 class="post__title">
+                  <a href="#" rel="bookmark">Proin tristique, lacus non iaculis consequat.</a>
+                </h3>
+                <div class="post__text-content">
+                  <p>Sed rhoncus varius dapibus. Maecenas tempus, erat quis tempus facilisis, nulla ante molestie elit, eu bibendum...</p>
+                </div>
+                <a href="#" class="post__button">Read more</a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="home-blog__carousel-wrapper">
+              <figure class="home-blog__carousel-img">
+                <a href="#">
+                  <img src="images/carousel/home/carousel_home-blog-03.jpg" alt="">
+                </a>
+              </figure>
+              <div class="post__content">
+                <div class="post__meta">
+                  <ul class="post__meta-list">
+                    <li>
+                      <a href="#" class="post__tags">Necklace</a>
+                    </li>
+                    <li>
+                      <p class="post__date-publication">07/01/2016</p>
+                    </li>
+                    <li>
+                      <p class="post__comments">17</p>
+                    </li>
+                  </ul>
+                </div>
+                <h3 class="post__title">
+                  <a href="#" rel="bookmark">Nunc dignissim leo vel dapibus porta.</a>
+                </h3>
+                <div class="post__text-content">
+                  <p>Pellentesque ut ex elementum, hendrerit nunc sit amet, semper nisi. Donec eget congue est. Sed vel nisl sit amet...</p>
+                </div>
+                <a href="#" class="post__button">Read more</a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="home-blog__carousel-wrapper">
+              <figure class="home-blog__carousel-img">
+                <a href="#">
+                  <img src="images/carousel/home/carousel_home-blog-04.jpg" alt="">
+                </a>
+              </figure>
+              <div class="post__content">
+                <div class="post__meta">
+                  <ul class="post__meta-list">
+                    <li>
+                      <a href="#" class="post__tags">Necklace</a>
+                    </li>
+                    <li>
+                      <p class="post__date-publication">07/01/2016</p>
+                    </li>
+                    <li>
+                      <p class="post__comments">12</p>
+                    </li>
+                  </ul>
+                </div>
+                <h3 class="post__title">
+                  <a href="#" rel="bookmark">Proin tristique, lacus non iaculis consequat.</a>
+                </h3>
+                <div class="post__text-content">
+                  <p>Sed rhoncus varius dapibus. Maecenas tempus, erat quis tempus facilisis, nulla ante molestie elit, eu bibendum...</p>
+                </div>
+                <a href="#" class="post__button">Read more</a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="home-blog__carousel-wrapper">
+              <figure class="home-blog__carousel-img">
+                <a href="#">
+                  <img src="images/carousel/home/carousel_home-blog-05.jpg" alt="">
+                </a>
+              </figure>
+              <div class="post__content">
+                <div class="post__meta">
+                  <ul class="post__meta-list">
+                    <li>
+                      <a href="#" class="post__tags">Necklace</a>
+                    </li>
+                    <li>
+                      <p class="post__date-publication">07/01/2016</p>
+                    </li>
+                    <li>
+                      <p class="post__comments">16</p>
+                    </li>
+                  </ul>
+                </div>
+                <h3 class="post__title">
+                  <a href="#" rel="bookmark">Suspendisse nisi turpis, pulvinar et dictum vel. </a>
+                </h3>
+                <div class="post__text-content">
+                  <p>Nam ultricies risus sed egestas blandit. Nunc in euismod diam. Curabitur in rhoncus purus. Suspendisse potenti...</p>
+                </div>
+                <a href="#" class="post__button">Read more</a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="ls">
+  <div class="content-block__03">
+    <div class="content-block__img">
+      <img src="images/content-block/content-block_img-01.png" alt="">
+    </div>
+    <div class="content-block__img">
+      <img src="images/content-block/content-block_img-02.png" alt="">
+    </div>
+    <div class="content-block__img">
+      <img src="images/content-block/content-block_img-03.png" alt="">
+    </div>
+    <div class="content-block__img">
+      <img src="images/content-block/content-block_img-04.png" alt="">
+    </div>
+    <div class="content-block__img">
+      <img src="images/content-block/content-block_img-05.png" alt="">
+    </div>
+    <div class="content-block__img">
+      <img src="images/content-block/content-block_img-06.png" alt="">
+    </div>
+    <div class="content-block__img">
+      <img src="images/content-block/content-block_img-07.png" alt="">
+    </div>
+    <div class="content-block__img">
+      <img src="images/content-block/content-block_img-08.png" alt="">
+    </div>
+    <div class="content-block__img">
+      <img src="images/content-block/content-block_img-09.png" alt="">
+    </div>
+  </div>
+</div>
+
+<footer class="page_footer ds ms">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-5 col-md-5 col-sm-12 footer-block__01 to_animate decoration__line_l offset_padding_top_90 offset_padding_bottom_85" >
+        <div class="widget widget_text page-footer__logo">
+          <p class="page-footer__logo-wrapper"><img src="images/logo_bottom.png" alt=""></p>
+          <p>Suspendisse dictum porttitor bibendum. Fusce eget lacus id quam tincidunt mattis. Etiam fringilla felis rhoncus, volutpat dui nec, eleifend turpis.  Mauris posuere urna ac elementum.</p>
+        </div>
+        <div class="widget widget__payment"> 
+          <h3 class="widget__payment-title">Payment</h3>
+          <div class="big">
+            <a href="#"><i class="fa fa-cc-visa"></i></a>
+            <a href="#"><i class="fa fa-cc-mastercard"></i></a>
+            <a href="#"><i class="fa fa-cc-discover"></i></a>
+            <a href="#"><i class="fa fa-cc-amex"></i></a>
+            <a href="#"><i class="fa fa-cc-paypal"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-7 col-md-7 col-sm-12 footer-block__02 to_animate decoration__line_r offset_padding_top_90 offset_padding_bottom_85 horizontal_offset_padding_40">
+        <!-- mailchimp -->
+        <div class="widget widget_mailchimp">
+  <h3 class="widget_mailchimp-title">Newsletter</h3>
+  <p class="widget_mailchimp__text">Subscribe to our latest news to be updated. We promise not to spam!</p>
+  <form class="signup form-inline" action="" method="get">
+    <div class="form-group">
+      <input name="email" type="email" class="mailchimp_email form-control" placeholder="Email address">
+    </div>
+    <button type="submit" class="theme_button">Subscribe</button>
+    <div class="response"></div>
+  </form>
+</div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <!-- footer navigation -->
+            <div class="widget widget_nav_menu greylinks">
+              <h3 class="widget-title">My Account</h3>
+               <ul class="menu">
+                <li class="">
+                  <a href="#">My Account</a>
+                </li>
+                <li class="">
+                  <a href="#">My Fashion</a>
+                </li>
+                <li class="">
+                  <a href="#">Login</a>
+                </li>
+                <li class="">
+                  <a href="#">Register</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <!-- shopping guide -->
+            <div class="widget widget_nav_menu greylinks">
+              <h3 class="widget-title">Shopping Guide</h3>
+              <ul class="menu">
+                <li class="">
+                  <a href="#">Checkout</a>
+                </li>
+                <li class="">
+                  <a href="#">Cart</a>
+                </li>
+                <li class="">
+                  <a href="#">Contact Usy</a>
+                </li>
+                <li class="">
+                  <a href="#">Blog</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <!-- contact us -->
+            <div class="widget widget_nav_menu greylinks">
+              <h3 class="widget-title">Contact Us</h3>
+              <ul class="menu">
+                <li class="">
+                  <a href="#">About Us</a>
+                </li>
+                <li class="">
+                  <a href="#">Blog</a>
+                </li>
+                <li class="">
+                  <a href="#">Search</a>
+                </li>
+                <li class="">
+                  <a href="#">Sitemap</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<div class="page_copyright ds table_section section_padding_20">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 text-center text-lg-left">
+        <p>Copyright &copy; 2017.Company name All rights reserved.<a target="_blank" href="http://www.smallseashell.com/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+</div><!-- eof #box_wrapper -->
+</div><!-- eof #canvas -->
+
+ 
+    <script src="js/compressed.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
